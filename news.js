@@ -9,9 +9,9 @@ $(document).ready(function(){
            for(var j in f){
                output +="<tr><td>"+f[j].title+"</td>"
                output +="<td>"+f[j].description+"</td>"
-               output +="<td><A Href=" +f[j].url+">readmore</A></td>"
+               output +="<td><a Href=" +f[j].url+">readmore</a></td>"
                
-               output +="<td><img src="+f[j].urlToImage+" style=width:50px;height:50px></td></tr>"
+               output +="<td><img src="+f[j].urlToImage+" style=width:150px;height:100px></td></tr>"
            }
            output +='</table>'
             $('.result').html(output)
